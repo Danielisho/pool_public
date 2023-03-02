@@ -11,4 +11,12 @@
 ---
 <a name="item1"></a>
 ### Contenido 1
+**Tabla en `Markdown` con al menos 5 comandos de la terminal**
+
+|COMANDO|EXPLICACIÓN|
+|-------|-----------|
+|`ls`   |Lista los archivos y carpetas en el directorio actual <br> formato para usar **Indicadores**: <br><br> `ls <ruta del directorio> `: _Lista el contenido de otro      directorio_. <br><br> `ls /`: Lista el contenido del directorio principal. <br> <br> `ls ..`: para listar contenido un nivel arriba. <br><br> `ls ../..`: Para listar directorios 2 niveles arriba. <br><br> `ls ~`: Lista el contenido del directorio personal de usuario. <br><br> `ls -d */`: Lista **solo** directorios. <br><br> `ls *`: Lista el contenido del directorio y sus subdirectorios. <br><br> `ls -r`: Lista todos los archivos y directorios con sus sibdirectorios 😬|
+
+
+
 [SUBIR ⏫](#item0)
