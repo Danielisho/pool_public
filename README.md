@@ -10,7 +10,7 @@ Ahora, en términos más formales de trabajo, me gusta enfocarme en la automatiz
 
 Inicio este Bootcamp con muchas expectativas positivas y presto a colaborar en lo que se pueda. 
 
-Considero que la mejor manera de aprender algo es practicándolo y enseñándolo a otros, así que, en este espacio público comenzaré a colocar mis notas que no son mas que  el producto de mis tropiezos y la posible solución a los mismos. 
+Considero que la mejor manera de aprender algo, es **practicándolo** y **enseñándolo** a otros, así que, en este espacio, comenzaré a colocar mis notas que no son mas que  el producto de mis tropiezos y la solución que a los mismos que estoy seguro podrán servirle a alguien más.
 
 
 > 📍 _Muchos te amarán por lo que eres y otros te odiarán por la misma razón, así que **acostúmbrate**_ 📍
