@@ -35,7 +35,7 @@ _Parece que el problema es un **Bug**_ ¿Te suena? 😉 <br><br>
  > > "_Depuración del sistema por búsqueda de errores_... _En una instancia reportada, se encontró un bug_... _Encontramos que el problema se debió a una polilla incrustada en el relé_..." <br>
  Como parte del reporte de la **Mark II**, dejaron en el registro a la polilla 🐛 pegada con cinta adhesiva. 😂😂😂
 
- El término 'bug' y su uso en electrónica se remonta al menos a 1878 con _Thomas Alva Edison_ pero esa es otra historia." 😲😲. <br>
+ El término 'bug' y su uso en electrónica, se remonta al menos a 1878 con _Thomas Alva Edison_, pero esa es otra historia." 📻 <br>
 En informática **Bug** se utiliza comúnmente para referirse a los errores y problemas en el código de software, ya lo sabes. ✌️
 </details>
  
