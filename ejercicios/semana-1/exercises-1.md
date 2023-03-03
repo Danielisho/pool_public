@@ -26,79 +26,108 @@ Estos son solo los pasos generales y pueden variar según el caso específico. E
 
 <a name="item0"></a>
 ## ÍNDICE DE CONTENIDOS
-* [Contenido 1](#item1) ➡️ Tabla en `Markdown` con al menos 5 comandos de la **terminal**.
-* [Contenido 2](#item2) ➡️ Tabla con algunos comandos _Alias_ que considere pertinentes.
-* [Contenido 3](#item3) ➡️ Uso del comando `11ty`.
-* [Contenido 4](#item4) ➡️ Diferencia entre **Terminal Application** y **Terminal Emulator**
-* [Contenido 5](#item5) ➡️ Comando `mv` ¿Por qué se usa para renombrar también?
+* [Asignación 1](#item1) ➡️ Tabla en `Markdown` con al menos 5 comandos de la **terminal**.
+* [Asignación 2](#item2) ➡️ Tabla con algunos comandos _Alias_ que considere pertinentes.
+* [Asignación 3](#item3) ➡️ Uso del comando `11ty`.
+* [Asignación 4](#item4) ➡️ Diferencia entre **Terminal Application** y **Terminal Emulator**
+* [Asignación 5](#item5) ➡️ Comando `mv` ¿Por qué se usa para renombrar también?
 
 ---
 <a name="item1"></a>
-### Contenido 1
-**Tabla en `Markdown` con al menos 5 comandos de la terminal**
+### Asignación  1
 
-|COMANDO|EXPLICACIÓN|
+
+<details>
+<summary>Tabla en `Markdown` con al menos 5 comandos de la terminal</summary>
+
+  |COMANDO|EXPLICACIÓN|
 |-------|-----------|
 |`ls` <br><br> _"List"_|Lista los archivos y carpetas en el directorio actual <br> formato para usar **Indicadores**: <br><br> `ls <ruta del directorio> `: _Lista el contenido de otro      directorio_. <br><br> `ls /`: Lista el contenido del directorio principal. <br> <br> `ls ..`: para listar contenido un nivel arriba. <br><br> `ls ../..`: Para listar directorios 2 niveles arriba. <br><br> `ls ~`: Lista el contenido del directorio personal de usuario. <br><br> `ls -d */`: Lista **solo** directorios. <br><br> `ls *`: Lista el contenido del directorio y sus subdirectorios. <br><br> `ls -R`: Lista todos los archivos y directorios con sus sibdirectorios 😬 <br><br> `ls <directorio> -R`: Como el comando anterior puede tardar mucho, existe esta opción para listar todo pero de un único directorio 😅 <br><br> `ls -s`: Lista los directorios con sus tamaños. <br><br> `ls -l`: Lista el contenido de los directorios en formato lista con propiedades. `ls -lh`: Igual que el anterior pero añade el tamaño. <br><br> `ls -a`: Lista también los directorio o archivos ocultos. <br><br> `ls -l -a` , `ls -a -l` , `ls -la` , `ls -al`: Lista los directorios con información adicional incluyendo los ocultos. <br><br> `ls -t`: Lista ordenado por fecha de la última modificación. <br><br> `ls -tr`: Igual que el anterior pero invierte el orden. <br><br> `ls -S`: La lista la muestra por tamaño en orrden descendente. <br><br> `ls -Sr`: Igual que el anterior pero invierte el orden. ❗ OJO ❗ la **S** es mayúscula. <br><br> 🔥 BONUS TRACK 🔥 <br><br> `ls > mi_archivo.txt`: Imprime el resultado en un archivo. Puedo incluir todas las variantes anteriores y generar un archivo con el resultado. <br><br>|
 |`pwd` <br><br>  _"Print Working Directory"_     | Muestra la ruta del directorio actual|
 |`cd` <br><br> _"change directory"_ | `cd -`: Cambia al directorio anterior al directorio actual.<br><br> `cd ~`: Cambia al directorio de inicio del usuario.<br><br> `cd -P`: Se asegura de que se respeten los enlaces simbólicos y se utilice la ruta física del directorio 😕?.<br><br> |
 |`cat` <br><br> "_Concatenate_"| `cat archivo.txt`: Muestra el contenido del archivo txt o varios arrchivos: <br><br> `cat archivo1 archivo2 archivo3` <br><br> Además de mostrar el contenido de un archivo en la salida estándar, el comando `cat` también se utiliza para concatenar archivos. <br>Para hacer esto, se utiliza el comando `cat` junto con la redirección estándar, de la siguiente manera: <br><br> `cat archivo1 archivo2 archivo3 ... > nuevo_archivo` <br><br>
 
-
-
-[SUBIR ⏫](#item0)
+  [SUBIR ⏫](#item0)
 ___
+
+</details>
+
+
+
+
+
 
 
 <a name="item2"></a>
-### Contenido 2
+### Asignación  2
+<details>
+<summary>Tabla con algunos comandos _Alias_ que considere pertinentes</summary>
 
-[SUBIR ⏫](#item0)
+```
+En construcción
+```
+  
+  [SUBIR ⏫](#item0)
 ___
+</details>
+  
+  
+  
+
 
 <a name="item3"></a>
-### Contenido 3
-Uso del comando `11ty`
-
-<!--el comando 11ty es una herramienta de línea de comandos para construir sitios web estáticos que se basan en plantillas HTML, CSS y JavaScript. 11ty es una herramienta que se ejecuta en la terminal, y su objetivo principal es convertir archivos Markdown, Nunjucks, Handlebars, Liquid, entre otros, en archivos HTML estáticos.
-
-Algunos de los comandos principales de 11ty son:
-
-eleventy: es el comando principal para generar un sitio web estático. Cuando ejecutas el comando eleventy en la terminal, 11ty buscará los archivos de origen en el directorio actual y generará los archivos HTML estáticos en el directorio de destino.
-
-eleventy --serve: este comando inicia un servidor local que muestra tu sitio web generado. Al ejecutar este comando, podrás ver los cambios en tiempo real a medida que los haces en los archivos fuente.
-
-eleventy --input=<directorio-de-entrada> --output=<directorio-de-salida>: este comando te permite especificar los directorios de entrada y salida para la generación del sitio web. Por defecto, 11ty busca los archivos fuente en el directorio actual y genera los archivos HTML en una carpeta _site en el mismo directorio. Con este comando, puedes especificar un directorio de entrada y de salida personalizado.
-
-eleventy --help: este comando muestra la lista completa de opciones y comandos disponibles en 11ty.
-
-En resumen, 11ty es una herramienta útil para desarrolladores web que desean crear sitios web estáticos rápidos y eficientes usando plantillas HTML, CSS y JavaScript. La terminal es la forma más común de utilizar 11ty, y sus principales comandos son eleventy, eleventy --serve y eleventy --input=<directorio-de-entrada> --output=<directorio-de-salida>.
+### Asignación  3
   
-  puedes usar 11ty para crear un sitio web estático y luego subirlo a un repositorio de GitHub. Aquí te dejo los pasos generales para hacerlo:
+  <details>
+<summary>Uso del comando 11ty </summary>
 
-Crea un nuevo repositorio en GitHub.
 
-Clona el repositorio en tu computadora usando el comando git clone en la terminal.
+El comando `11ty` es una herramienta de línea de comandos para construir sitios web estáticos que se basan en plantillas HTML, CSS y JavaScript. `11ty` es una herramienta que se ejecuta en la terminal, y su objetivo principal **es convertir archivos Markdown, Nunjucks, Handlebars, Liquid, entre otros**, en archivos **HTML estáticos**.
 
-Crea un nuevo sitio web estático con 11ty. Puedes hacerlo siguiendo los pasos en la documentación de 11ty. Por ejemplo, puedes crear un archivo de configuración .eleventy.js, agregar tus archivos fuente en el directorio src y ejecutar eleventy para generar el sitio web estático.
+Algunos de los comandos principales de `11ty` son:
 
-Copia los archivos generados en el directorio de salida de 11ty (por defecto, la carpeta _site) y pégalo en la carpeta clonada del repositorio de GitHub en tu computadora.
+1. `eleventy`: es el comando principal para generar un sitio web estático. Cuando ejecutas el comando `eleventy` en la terminal, `11ty` buscará los archivos de origen en el directorio actual y generará los archivos `HTML` estáticos en el directorio de destino.
 
-En la terminal, navega hasta el directorio clonado del repositorio de GitHub y ejecuta los siguientes comandos para subir los archivos al repositorio:
+2. `eleventy --serve`: este comando inicia un **servidor local** que muestra tu sitio web generado. Al ejecutar este comando, podrás ver los cambios en tiempo real a medida que los haces en los archivos fuente.
+
+3. `eleventy --input=<directorio-de-entrada> --output=<directorio-de-salida>`: este comando te permite especificar los directorios de entrada y salida para la generación del sitio web. Por defecto, `11ty` busca los archivos fuente en el directorio actual y genera los archivos `HTML` en una <carpeta _site> en el mismo directorio. Con este comando, puedes especificar un directorio de entrada y de salida personalizado.
+
+4. `eleventy --help`: este comando muestra la lista completa de opciones y comandos disponibles en `11ty`.
+
+
+  
+Se puede usar `11ty` para crear un sitio web estático y luego subirlo a un repositorio de GitHub:
+
+1. Crear un nuevo repositorio en GitHub.
+
+2. Clonar el repositorio en local usando el comando `git clone` en la terminal.
+
+3. Crear un nuevo sitio web estático con `11ty`. Puedes hacerlo siguiendo los pasos anteriores 👆. <br> Por ejemplo, puedes crear un archivo de configuración .eleventy.js, agregar tus archivos fuente en el directorio src y ejecutar eleventy para generar el sitio web estático 😵
+
+4. Copiar los archivos generados en el directorio de salida de `11ty` (por defecto, la carpeta _site) y pegarlo en la carpeta clonada del repositorio de GitHub en tu computadora.
+
+5. En la terminal, navegar hasta el directorio clonado del repositorio de GitHub y ejecutar los siguientes comandos para subir los archivos al repositorio:
   ```sh
   git add .
 git commit -m "Agregando archivos generados por 11ty"
 git push origin master
   ```
   
-  Si todo va bien, los archivos se subirán al repositorio de GitHub y estarán disponibles para ver en línea.
-Recuerda que estos son solo los pasos generales y pueden variar según tu caso específico. Además, asegúrate de seguir las mejores prácticas de versionamiento y subir tus cambios regularmente para mantener una copia de seguridad y un registro de los cambios realizados.
--->
+6. Si todo va bien, los archivos se subirán al repositorio de GitHub y estarán disponibles para ver en línea. <br>
+
+🚩 Recordar que estos son solo los _pasos generales_ y pueden variar según tu caso específico. 
+
 [SUBIR ⏫](#item0)
 ___
+</details>
+  
+  
+  
+
+
 
 <a name="item4"></a>
-### Contenido 4
+### Asignación  4
 Diferencia entre **Terminal Application** y **Terminal Emulator**
 
 <!--
@@ -137,7 +166,7 @@ En resumen, tanto las terminal applications como los terminal emulators tienen s
 ___
 
 <a name="item5"></a>
-### Contenido 5
+### Asignación  5
 <!--
 ¿Por qué se usa el comando `mv` también para renombrar archivos o carpetas?
 
