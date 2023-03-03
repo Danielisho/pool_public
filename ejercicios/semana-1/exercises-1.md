@@ -4,7 +4,7 @@
 
 
 <a name="item0"></a>
-## ÍNDICE DE CONTENIDOS
+## ÍNDICE DE ASIGNACIONES
 * [Asignación 1](#item1) ➡️ Tabla en `Markdown` con al menos 5 comandos de la **terminal**.
 * [Asignación 2](#item2) ➡️ Tabla con algunos comandos _Alias_ que considere pertinentes.
 * [Asignación 3](#item3) ➡️ Uso del comando `11ty`.
