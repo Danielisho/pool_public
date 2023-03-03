@@ -9,7 +9,7 @@ Poseo algunos conocimientos de `HTML` y `CSS` que he adquirido en cursos y de ma
 
 Ahora, en términos más formales de trabajo, me gusta enfocarme en la automatización de **cualquier** proceso susceptible de ello, utilizando, obviamente la tecnología.
 
-Inicio este Bootcamp con muchas expectativas positivas y presto a colaborar en lo que se pueda. 
+Inicio este Bootcamp gracias a [@glrodasz](https://github.com/glrodasz) con muchas expectativas positivas y presto a colaborar en lo que se pueda. 
 
 Considero que la mejor manera de aprender algo, es **practicándolo** y **enseñándolo** a otros, así que, en este espacio, comenzaré a colocar mis notas que no son mas que  el producto de mis tropiezos y la solución a los mismos.
 
