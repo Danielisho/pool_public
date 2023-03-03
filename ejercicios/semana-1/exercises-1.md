@@ -77,7 +77,7 @@ Se puede usar `11ty` para crear un sitio web estático y luego subirlo a un repo
 
 2. Clonar el repositorio en local usando el comando `git clone` en la terminal.
 
-3. Crear un nuevo sitio web estático con `11ty`. Puedes hacerlo siguiendo los pasos anteriores 👆. <br> Por ejemplo, puedes crear un archivo de configuración .eleventy.js, agregar tus archivos fuente en el directorio src y ejecutar eleventy para generar el sitio web estático 😵
+3. Crear un nuevo sitio web estático con `11ty`. Puedes hacerlo siguiendo los pasos anteriores 👆. <br> Por ejemplo, puedes crear un archivo de configuración .eleventy.js, agregar tus archivos fuente en el directorio **src** y ejecutar `eleventy` para generar el sitio web estático 😵
 
 4. Copiar los archivos generados en el directorio de salida de `11ty` (por defecto, la carpeta _site) y pegarlo en la carpeta clonada del repositorio de GitHub en tu computadora.
 
