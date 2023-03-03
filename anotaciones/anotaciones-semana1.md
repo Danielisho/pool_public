@@ -4,8 +4,7 @@
 
 ## Algunas anotaciones de la semana 1 del Bootcamp - Full-stack JavaScript Developer 📝<br><br>
 
-
-<details>
+ <details>
   <summary> Algunas cosas que parecen obvias, anglicismos y otros términos</summary><br>
   
 Aunque parezca una cosa tonta, cuando te sumerges en el mundo de cualquier profesión por primera vez, te encuentras con el despliegue de una jerga comúnmente aceptada pero que para ti es como si estuvieran hablando en mandarín 👘. Pasa con la medicina, los ingenieros, los religiosos y por supuesto los informáticos no se iban a quedar atrás.<br>
@@ -31,7 +30,7 @@ En mi caso, los fui anotando e envestigué de qué se trataban y pude descifrar 
  
   
 </details>
-
+<hr>
 
 
 
@@ -50,7 +49,8 @@ Por otra parte, **GitHub** es un servicio en línea que aloja repositorios de **
 
 La principal diferencia entre **Git** y **GitHub** es que **Git** es un sistema de control de versiones distribuido, mientras que **GitHub** es un servicio en línea que proporciona una plataforma para alojar y colaborar en repositorios de **Git** en la nube. **Git** es una herramienta de línea de comandos que se ejecuta en la terminal, mientras que **GitHub** es una plataforma en línea que proporciona una interfaz gráfica de usuario para administrar los repositorios.
 
-
+---
+  
 </details>
 
 </details>
