@@ -17,4 +17,4 @@ Estoy seguro de que podrán servirle a alguien más.
 
 
 
-> 📍 _Muchos te amarán por lo que eres y otros te odiarán por la misma razón, así que **acostúmbrate**_ 📍
+> 📍 _Muchos te amarán por lo que eres y otros te odiarán por la misma razón, así que, **acostúmbrate**_ 📍
