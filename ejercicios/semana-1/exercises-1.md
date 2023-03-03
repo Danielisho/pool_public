@@ -1,25 +1,4 @@
-<!--Git es un sistema de control de versiones distribuido que permite a los desarrolladores de software llevar un registro de los cambios realizados en su código fuente. La filosofía detrás de Git es permitir a los desarrolladores trabajar de manera eficiente en proyectos de software en colaboración, manteniendo un historial completo y detallado de los cambios realizados a lo largo del tiempo. Git utiliza ramas (branches) para permitir que los desarrolladores trabajen en paralelo en diferentes características del proyecto, y los cambios se fusionan (merge) cuando se completan.
 
-GitHub es un servicio en línea que aloja repositorios de Git en la nube. Es decir, proporciona una plataforma en línea para almacenar, compartir y colaborar en proyectos de software con Git. GitHub permite a los desarrolladores subir sus repositorios Git a la nube y colaborar en ellos con otros desarrolladores de todo el mundo. Los desarrolladores pueden realizar solicitudes de extracción (pull requests) para proponer cambios en el código fuente y revisar los cambios realizados por otros colaboradores. GitHub también proporciona herramientas para la gestión de proyectos, seguimiento de problemas (issues), integración continua (continuous integration) y despliegue (deployment) automático.
-
-La principal diferencia entre Git y GitHub es que Git es un sistema de control de versiones distribuido, mientras que GitHub es un servicio en línea que proporciona una plataforma para alojar y colaborar en repositorios de Git en la nube. Git es una herramienta de línea de comandos que se ejecuta en la terminal, mientras que GitHub es una plataforma en línea que proporciona una interfaz gráfica de usuario para administrar los repositorios.
-
-En cuanto a cómo se usan, en términos generales, se podría seguir los siguientes pasos:
-
-Instalar Git en tu computadora.
-
-Crear un repositorio Git local en tu computadora utilizando el comando git init.
-
-Agregar y hacer un seguimiento de los archivos en el repositorio utilizando los comandos git add y git commit.
-
-Subir el repositorio a GitHub utilizando el comando git push.
-
-Colaborar en el repositorio en línea en GitHub, realizando cambios, realizando solicitudes de extracción y trabajando en equipo.
-
-Descargar los cambios realizados por otros colaboradores utilizando el comando git pull.
-
-Estos son solo los pasos generales y pueden variar según el caso específico. Es importante seguir las mejores prácticas de Git y GitHub para mantener una copia de seguridad, mantener un historial completo de los cambios y colaborar de manera efectiva en proyectos de software.
--->
 
 # ASIGNACIONES SEMANA 1
 
