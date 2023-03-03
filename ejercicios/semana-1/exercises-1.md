@@ -21,7 +21,7 @@ Descargar los cambios realizados por otros colaboradores utilizando el comando g
 Estos son solo los pasos generales y pueden variar según el caso específico. Es importante seguir las mejores prácticas de Git y GitHub para mantener una copia de seguridad, mantener un historial completo de los cambios y colaborar de manera efectiva en proyectos de software.
 -->
 
-# EJERCICIOS SEMANA 1
+# ASIGNACIONES SEMANA 1
 
 
 <a name="item0"></a>
@@ -51,10 +51,6 @@ Estos son solo los pasos generales y pueden variar según el caso específico. E
 ___
 
 </details>
-
-
-
-
 
 
 
@@ -128,42 +124,56 @@ ___
 
 <a name="item4"></a>
 ### Asignación  4
-Diferencia entre **Terminal Application** y **Terminal Emulator**
+<details>
+<summary>Diferencia entre Terminal Application y Terminal Emulator</summary>
+<br>
+La diferencia principal entre una _**terminal application**_ y un _**Terminal Emulator**_ es la **capa de abstracción que se utiliza para comunicarse con el sistema operativo** 😧 y **ejecutar comandos en la línea de comandos**. 😨 Lo sé, suena complicado. A ver si puedo explicarlo mejor: 
+    
 
-<!--
-La diferencia principal entre una terminal application y un terminal emulator es la capa de abstracción que se utiliza para comunicarse con el sistema operativo y ejecutar comandos en la línea de comandos.
+> La capa de abstracción se refiere a una interfaz que permite a los programas y usuarios interactuar con el sistema operativo y ejecutar comandos en la línea de comandos. Esta capa se conoce como la "interfaz de línea de comandos" **CLI** por sus siglas en inglés (Command Line Interface).<br><br>
+La CLI es una forma de interactuar con el sistema operativo a través de un lenguaje de comandos. En lugar de utilizar una interfaz gráfica de usuario (GUI), donde se utilizan iconos y botones para realizar acciones, la **CLI** se basa en comandos de texto simples que se escriben en una terminal o consola. Estos comandos pueden ser utilizados para realizar una amplia variedad de tareas, como la navegación por el sistema de archivos, la gestión de procesos, la instalación de software y la configuración del sistema.<br><br>
+La capa de abstracción permite que los programas y usuarios interactúen con la CLI de manera fácil y segura, ya que oculta detalles técnicos complejos del sistema operativo. Esto significa que los usuarios no necesitan conocer detalles técnicos específicos del sistema operativo para interactuar con él.
 
-Una terminal application es un programa que proporciona una interfaz de usuario para ejecutar comandos en la línea de comandos. Ejemplos de terminal applications son la Terminal de macOS, el símbolo del sistema de Windows, la Terminal de GNOME en Linux, entre otros. Estas aplicaciones interactúan directamente con el sistema operativo para enviar y recibir comandos y mostrar la salida de los mismos.
+Ahora bien, una **Terminal Application** es un _**programa que proporciona una interfaz de usuario para ejecutar comandos en la línea de comandos**_. 
+Ejemplos de terminal applications son la Terminal de **macOS**, el **símbolo del sistema de Windows** (CMD), la Terminal de **GNOME** en Linux, entre otros. <br><br>Estas aplicaciones **interactúan directamente con el sistema operativo** para enviar y recibir comandos y mostrar la salida de los mismos.
 
-Por otro lado, un terminal emulator es un programa que emula una terminal física. En otras palabras, es un programa que simula el comportamiento de una terminal física y permite ejecutar comandos en la línea de comandos a través de una interfaz gráfica. Ejemplos de terminal emulators son xterm, Konsole, iTerm, etc. Estos programas no interactúan directamente con el sistema operativo, sino que emulan la funcionalidad de una terminal física y se comunican con el sistema operativo a través de un protocolo de comunicación (por ejemplo, el protocolo SSH para conectarse a un servidor remoto).
+Por otra parte, un **Terminal Emulator** es un programa que **emula una terminal física**. En otras palabras, es un programa que simula el comportamiento de una terminal física y permite ejecutar comandos en la línea de comandos a través de una interfaz gráfica. <br> Ejemplos de terminal emulators son **xterm**, **Konsole**, **iTerm**, etc. <br> Estos programas **no interactúan directamente con el sistema operativo**, sino que emulan la funcionalidad de una terminal física y se comunican con el sistema operativo a través de un protocolo de comunicación (por ejemplo, el protocolo SSH para conectarse a un servidor remoto).
 
-En resumen, la diferencia principal entre una terminal application y un terminal emulator es que la primera interactúa directamente con el sistema operativo, mientras que la segunda emula una terminal física y se comunica con el sistema operativo a través de un protocolo de comunicación.
+En resumen 😅, la diferencia principal entre una **Terminal Application** y un **Terminal Emulator** es que la primera interactúa directamente con el sistema operativo, mientras que la segunda emula una terminal física y se comunica con el sistema operativo a través de un protocolo de comunicación.
 
-Ventajas de las terminal applications:
+### Algunas Ventajas de las **Terminal Applications**:
 
-Interactúan directamente con el sistema operativo, lo que puede ofrecer una mayor velocidad y eficiencia en la ejecución de comandos.
-Algunas terminal applications pueden proporcionar características adicionales, como la capacidad de seleccionar y copiar texto, pestañas de terminal, la capacidad de personalizar la apariencia, etc.
-Algunas terminal applications están diseñadas específicamente para trabajar con sistemas operativos particulares y pueden ofrecer una integración más profunda con el sistema operativo.
-Desventajas de las terminal applications:
+1. Interactúan directamente con el sistema operativo, lo que puede ofrecer una mayor velocidad y eficiencia en la ejecución de comandos.
+2. Algunas **Terminal Applications** pueden proporcionar características adicionales, como la capacidad de seleccionar y copiar texto, pestañas de terminal, la capacidad de personalizar la apariencia, etc.
+3. Algunas **Terminal Applications** están diseñadas específicamente para trabajar con sistemas operativos particulares y pueden ofrecer una integración más profunda con el sistema operativo.
+    
+### Algunas desventajas de las **Terminal Applications**:
 
-Por lo general, no son portables y solo funcionan en el sistema operativo para el que fueron diseñados.
-No ofrecen la capacidad de conectarse a sistemas remotos de forma nativa.
-Algunas terminal applications pueden ser más difíciles de usar para usuarios nuevos en la línea de comandos.
-Ventajas de los terminal emulators:
+1. Por lo general, no son portables y solo funcionan en el sistema operativo para el que fueron diseñados.
+2. No ofrecen la capacidad de conectarse a sistemas remotos de forma nativa.
+3. Algunas terminal applications pueden ser más difíciles de usar para usuarios nuevos en la línea de comandos.
 
-Ofrecen la capacidad de conectarse a sistemas remotos de forma nativa y ejecutar comandos en ellos.
-Son más portables y pueden funcionar en diferentes sistemas operativos.
-La mayoría de los terminal emulators son altamente personalizables y ofrecen una amplia variedad de características.
-Desventajas de los terminal emulators:
+### Ventajas de los **Terminal Emulators**:
 
-Debido a que emulan una terminal física, pueden ser menos eficientes en la ejecución de comandos.
-Algunos usuarios pueden encontrar que la interfaz gráfica de los terminal emulators es menos intuitiva que la de las terminal applications.
-La calidad de la experiencia de usuario puede variar significativamente según el terminal emulator que se esté utilizando.
-En resumen, tanto las terminal applications como los terminal emulators tienen sus ventajas y desventajas, y la elección entre ellos dependerá de las necesidades y preferencias del usuario.
+1. Ofrecen la capacidad de conectarse a sistemas remotos de forma nativa y ejecutar comandos en ellos.
+2. Son más portables y pueden funcionar en diferentes sistemas operativos.
+3. La mayoría de los terminal emulators son altamente personalizables y ofrecen una amplia variedad de características.
 
--->
+### Desventajas de los **Terminal Emulators**:
+
+1. Debido a que emulan una terminal física, pueden ser menos eficientes en la ejecución de comandos.
+2. Algunos usuarios pueden encontrar que la interfaz gráfica de los **Terminal Emulators** es menos intuitiva que la de las terminal applications.
+3. La calidad de la experiencia de usuario puede variar significativamente según el terminal emulator que se esté utilizando.
+
+En resumen, tanto las **Terminal Applications** como los **Terminal Emulators** tienen sus ventajas y desventajas, y la elección entre ellos dependerá de tus necesidades y preferencias. 🤘
+
+
 [SUBIR ⏫](#item0)
 ___
+
+</details>
+
+
 
 <a name="item5"></a>
 ### Asignación  5
