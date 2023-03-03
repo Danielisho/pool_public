@@ -1,8 +1,9 @@
-![texto alternativo](https://explore.cscc.edu/images/programs/full/CSCI.GAMEDV.AAS.jpg)
+![Foto encabezado](https://explore.cscc.edu/images/programs/full/CSCI.GAMEDV.AAS.jpg)
 
 ## Repositorio personal creado para uso del Bootcamp Full-stack JavaScript Developer
 
-Mi nombre es *Daniel*, soy de Venezuela 🇻🇪 **Administrador** de profesión, **Guitarrista** académico y un **entusiasta de la informática**.
+## ¡Bienvenido!
+Mi nombre es _Daniel_, soy de 🇻🇪 Venezuela, **Administrador** de profesión, **Guitarrista** académico y un **entusiasta de la informática**.
 
 Poseo algunos conocimientos de `HTML` y `CSS` que he adquirido en cursos y de manera autodidácta; también poseo conocimientos elementales de `Mysql` y `PHP`.
 
