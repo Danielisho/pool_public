@@ -125,8 +125,8 @@ ___
 <a name="item4"></a>
 ### Asignación  4
 <details>
-<summary>Diferencia entre Terminal Application y Terminal Emulator</summary>
-<br>
+<summary>Diferencia entre Terminal Application y Terminal Emulator</summary><br>
+  
 La diferencia principal entre una _**terminal application**_ y un _**Terminal Emulator**_ es la **capa de abstracción que se utiliza para comunicarse con el sistema operativo** 😧 y **ejecutar comandos en la línea de comandos**. 😨 Lo sé, suena complicado. A ver si puedo explicarlo mejor: 
     
 
@@ -179,11 +179,11 @@ ___
 ### Asignación  5
     
 <details>
-  <summary>¿Por qué se usa el comando `mv` también para renombrar archivos o carpetas?</summary>
+  <summary>¿Por qué se usa el comando `mv` también para renombrar archivos o carpetas?</summary><br>
   
 El comando `mv` en la terminal de Linux/Unix se utiliza para **mover archivos o directorios de un lugar a otro**. Sin embargo, también se utiliza para cambiar el nombre de un archivo o directorio en la misma ubicación. Esto se debe a que, en Linux/Unix, un archivo o directorio **se identifica por su nombre y su ruta de acceso completa**. Al cambiar el nombre de un archivo o directorio, también se cambia su identidad, por lo tanto, para el sistema operativo, renombrar un archivo es equivalente a moverlo a una nueva ubicación con un nuevo nombre.
 
-En resumen, el comando `m` se utiliza tanto para mover como para renombrar archivos o directorios en Linux/Unix porque el cambio de nombre y la reubicación de archivos/directorios son operaciones equivalentes para el sistema operativo. 👍
+En resumen, el comando `mv` se utiliza tanto para mover como para renombrar archivos o directorios en Linux/Unix porque el cambio de nombre y la reubicación de archivos/directorios son operaciones equivalentes para el sistema operativo. 👍
 
 
 [SUBIR ⏫](#item0)
@@ -192,6 +192,9 @@ ___
   
 </details>
 
+    
+    
+    
 [SUBIR ⏫](#item0)
 ___
 
