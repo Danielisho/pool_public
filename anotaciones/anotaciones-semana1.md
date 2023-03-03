@@ -22,13 +22,28 @@ En mi caso, los fui anotando e envestigué de qué se trataban y pude descifrar 
   
   <details>
       <summary>Debug</summary><br>
-      "Debug" se refiere al proceso de encontrar y corregir errores en el código de software. Los errores pueden surgir durante el desarrollo de software debido a problemas de sintaxis, problemas de lógica, problemas de integración con otras partes del software, o una variedad de otros factores. <br> Cuando escuches: "voy a debuguear" ya sabes que van a buscar errores en el código 💪
+      "Debug" se refiere al proceso de encontrar y corregir errores en el código de software. Los errores pueden surgir durante el desarrollo de software debido a problemas de sintaxis, problemas de lógica, problemas de integración con otras partes del software, o una variedad de otros factores. <br> Cuando escuches: "voy a debuguear" ya sabes que van a buscar errores en el código. 💪
  </details>
-  
-  
-  
  
-  
+<details>
+<summary>Bug</summary>
+
+_Parece que el problema es un **Bug**_ ¿Te suena? 😉 <br><br>
+ Bueno, primero un poco de contexto: <br> 
+ 
+ > La historia del término "bug" se remonta a los primeros días de la informática y la programación, cuando las máquinas eran grandes y se basaban en sistemas de relés y cables para el procesamiento de datos. Se cree que el término fue utilizado por primera vez por la pionera en informática _**Grace Hopper**_ en 1947, cuando encontró un error en una máquina **Mark II de Harvard** que estaba causando un comportamiento inesperado. <br><br> El equipo de Hopper descubrió que el problema había sido causado por una **polilla** 😵 que se había atascado en uno de los relés de la máquina, lo que impedía que se cerrara correctamente. <br> En su diario de laboratorio, Hopper escribió:
+ > > "_Depuración del sistema por búsqueda de errores_... _En una instancia reportada, se encontró un bug_... _Encontramos que el problema se debió a una polilla incrustada en el relé_..." <br>
+ Como parte del reporte de la **Mark II**, dejaron en el registro a la polilla 🐛 pegada con cinta adhesiva. 😂😂😂
+
+ El término 'bug' y su uso en electrónica se remonta al menos a 1878 con _Thomas Alva Edison_ pero esa es otra historia." 😲😲. <br>
+En informática **Bug** se utiliza comúnmente para referirse a los errores y problemas en el código de software, ya lo sabes. ✌️
+</details>
+ 
+ 
+ 
+ 
+ 
+ 
 </details>
 <hr>
 
