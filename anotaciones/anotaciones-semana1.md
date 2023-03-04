@@ -7,7 +7,7 @@
  <details>
   <summary> Algunas cosas que parecen obvias, anglicismos y otros términos</summary><br>
   
-Aunque parezca una cosa tonta, cuando te sumerges en el mundo de cualquier profesión por primera vez, te encuentras con el despliegue de una jerga comúnmente aceptada pero que para ti es como si estuvieran hablando en mandarín 👘. Pasa con la medicina, los ingenieros, los religiosos y por supuesto los informáticos no se iban a quedar atrás.<br>
+Aunque parezca una cosa tonta, cuando te sumerges en el mundo de cualquier profesión por primera vez, te encuentras con el despliegue de una jerga comúnmente aceptada pero que para ti es como si estuvieran hablando en mandarín 🈚🈲. Pasa con la medicina, los ingenieros, los religiosos y por supuesto los informáticos no se iban a quedar atrás.<br>
 El tema es que,cuando te das cuenta que el uso de esos términos raros es tan común y obvio entre la comunidad, te da vergüenza preguntar qué rayos significan.
 En mi caso, los fui anotando e envestigué de qué se trataban y pude descifrar felizmente las conversaciones y explicaciones que en un principio me parecían confusas. <br><br>
   En el transcurso de las clases leí y escuché frases como "_Revisar todo antes de deployarlo_" <br>
