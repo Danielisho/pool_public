@@ -39,9 +39,54 @@ ___
 <details>
 <summary>Tabla con algunos comandos _Alias_ que considere pertinentes</summary>
 
+Un `alias` en la terminal es un **atajo** o una **abreviación** que se puede crear para un comando largo o complejo. En lugar de escribir el comando completo cada vez que se necesite, se puede crear un `alias` corto y usar ese *alias* en su lugar.
+
+Por ejemplo, en lugar de escribir el comando completo `git status` cada vez que se necesite verificar el estado de los archivos en **Git**, se puede crear un alias como `gs` y usar ese *alias* en su lugar. De esta manera, cuando se escriba `gs` en la terminal, se ejecutará automáticamente el comando `git status`.
+
+Hay 2 formas de guardar los alias:
+1. Una temporal, es decir, mientras se tenga iniciada la sesión en la terminal y
+2. Una permanente. modificando un archivo de sistema.
+
+##### Guardando *Alias* de manera temporal:
+
+Simplemente se escribe el siguiente comando según la sintaxis:
+
+`alias nuevo_alias= comando-original`
+Ejemplo:
+
+```Bash
+alias ll='ls -alh'
 ```
-En construcción
+Con este *alias* cada expandiremos las opciones al comando *listar archivos y carpetas* dándole más información al usuario.
+
+##### Guardando *Alias* de manera permanente (Ubuntu):
+Para guardar un alias de forma permanente en Ubuntu, se debe agregar el alias en el archivo de inicio de tu shell, en nuestro caso *Bash*.
+1. Abrimos Nano (editor)
+
+```Bash
+nano ~/.bashrc
 ```
+2. Desplazarse hasta el final del archivo y agregar una nueva línea para el nuevo *alias*. Por ejemplo, para crear un alias para el comando `ls -alh`, agregar la siguiente línea:
+
+```Bash
+alias ll='ls -alh'
+```
+3. Guardar los cambios y cerrar el archivo. En nano, presionando Ctrl + O para guardar y Ctrl + X para salir.
+4. Para que los cambios tengan efecto en la sesión actual de la terminal, ejecutar el comando `source ~/.bashrc`. Este comando recarga el archivo de inicio de la shell Bash y aplica los cambios que se acaban de hacer.
+
+```Bash
+source ~/.bashrc
+```
+
+
+###### Asignación:
+
+|COMANDO              | ALIAS   |                     EXPLICACIÓN                 |
+|-------------------- | ------- |  -----------------------------------------------  |
+|`ls -alh`            |`ll`     |**a** Muestra archivos ocultos <br> **l** usa formato largo para la lista <br> **h** coloca los tamaños de archivos|
+|`sudo apt update && sudo apt dist-upgrade -y`| `actualizar`| Actualiza el Sistema|
+|`git status`         | `gs`    | muestra el estado del directorio de trabajo y del área del entorno de ensayo|
+
   
   [SUBIR ⏫](#item0)
 ___
