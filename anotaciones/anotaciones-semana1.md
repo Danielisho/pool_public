@@ -25,6 +25,8 @@ En mi caso, los fui anotando e envestigué de qué se trataban y pude descifrar 
       "Debug" se refiere al proceso de encontrar y corregir errores en el código de software. Los errores pueden surgir durante el desarrollo de software debido a problemas de sintaxis, problemas de lógica, problemas de integración con otras partes del software, o una variedad de otros factores. <br> Cuando escuches: "voy a debuguear" ya sabes que van a buscar errores en el código. 💪
  </details>
  
+ 
+ <!-- Sobre el Bug --------------------------------------------------------- -->
 <details>
 <summary>Bug</summary>
 
@@ -38,8 +40,35 @@ _Parece que el problema es un **Bug**_ ¿Te suena? 😉 <br><br>
  El término 'bug' y su uso en electrónica, se remonta al menos a 1878 con _Thomas Alva Edison_, pero esa es otra historia." 📻 <br>
 En informática **Bug** se utiliza comúnmente para referirse a los errores y problemas en el código de software, ya lo sabes. ✌️
 </details>
+<!--  -------------------------------------------------------------------------- -->
  
+<!--  ------------------------------- Fork ------------------------------------------- -->
+<details>
+<summary>Fork</summary>
+
+"_Ya el repositorio está Forkeado_"  ¿Te suena?<br><br>
+Cuando se habla de hacer un `fork` en **GitHub**, se refiere a la acción de **crear una copia de un repositorio de GitHub en tu propia cuenta de GitHub**.
+
+En términos simples, hacer un `fork` significa tomar el proyecto de otra persona y hacer una copia de él en tu propia cuenta de **GitHub**, lo que te permite trabajar en tu propia versión del proyecto sin afectar el proyecto original. 🎆🎆
+
+Una vez que has hecho un `fork`, puedes realizar cambios en el repositorio que has creado y hacer una solicitud de extracción `pull request` para que el dueño original del proyecto revise y apruebe tus cambios, lo que permite colaborar en un proyecto y contribuir con mejoras y correcciones.<br><br>
+ Ya entiendes y estás ¡listo para un `fork`! 💪
+</details>
  
+ <!--  ------------------------------- Branch ------------------------------------------- -->
+ <details>
+<summary>Branch</summary>
+
+"_Branchea el repositorio_"  😵😵😵<br><br>
+Cuando se habla de "*branchear*" en **Git**, se refiere a **crear una nueva rama** (o branch en inglés) **de desarrollo en el repositorio Git**. Una **rama** es una línea independiente de desarrollo que se bifurca del tronco principal (o branch principal) del repositorio, y permite a los desarrolladores trabajar en diferentes aspectos del proyecto sin afectar el trabajo principal de los demás.
+
+*Branchear* en **Git** es una práctica común en el desarrollo de software, ya que permite a los desarrolladores trabajar en diferentes características del proyecto en paralelo, sin interferir con el trabajo de los demás. Cada rama tiene su propio conjunto de cambios y revisiones, y puede ser fusionada nuevamente en la rama principal del proyecto cuando esté lista para su implementación.
+
+Por ejemplo, si tienes un proyecto en el que quieres agregar una nueva característica, puedes crear una nueva rama para trabajar en esa característica sin afectar la rama principal del proyecto. Si luego decides que quieres hacer cambios en la rama principal, puedes hacerlos sin afectar el trabajo que se está haciendo en la rama de la nueva característica.
+
+La creación y gestión de ramas en **Git** es una funcionalidad muy útil para mantener un historial de desarrollo limpio y ordenado, y permite a los desarrolladores trabajar de manera más eficiente y colaborativa<br><br>
+ Espero que ahora tengas un poco más claro lo concerniente a **branch** 🔀
+</details>
  
  
  
