@@ -10,6 +10,7 @@
 * [Asignación 3](#item3) ➡️ Uso del comando `11ty`.
 * [Asignación 4](#item4) ➡️ Diferencia entre **Terminal Application** y **Terminal Emulator**
 * [Asignación 5](#item5) ➡️ Comando `mv` ¿Por qué se usa para renombrar también?
+* [Asignación 6](#item6) ➡️ Diferencias entre un Sistema de Control de versiones Distribuido y uno Centralizado 
 
 ---
 <a name="item1"></a>
@@ -171,6 +172,26 @@ ___
   
 </details>
 
+    
+<!--     -------------------------------------------------------------------------------------------- -->
+<a name="item6"></a>
+### Asignación  6
+<details>
+  <summary>Sistema de Control de versiones Distribuido vs Centralizado</summary><br>
+  
+La principal diferencia entre un **Sistema de Control de Versiones Distribuido** y uno **Centralizado** es la forma en que gestionan y almacenan los archivos y versiones de un proyecto.
 
+En un **Sistema de Control de Versiones Centralizado**, todos los archivos y versiones de un proyecto se almacenan en un **único servidor centralizado**. Los desarrolladores trabajan en una copia local de los archivos, y para colaborar con otros miembros del equipo, deben conectarse al servidor centralizado y enviar sus cambios al repositorio central. El servidor centralizado es el punto de referencia único para el historial de cambios y versiones del proyecto.
+
+Por otro lado, en un **Sistema de Control de Versiones Distribuido**, cada desarrollador tiene una copia local completa del repositorio, incluyendo todas las versiones y cambios del proyecto. Los desarrolladores pueden trabajar en sus propias copias locales y hacer cambios sin estar conectados al servidor centralizado. Luego, pueden sincronizar sus cambios con los demás desarrolladores mediante la combinación de los cambios y la actualización de las copias locales de los demás.
+
+En un **Sistema de Control de Versiones Distribuido**, el servidor centralizado no es el punto de referencia único para el historial de cambios y versiones del proyecto, sino que cada copia local tiene una copia completa del repositorio con su historial de cambios. Esto hace que los sistemas distribuidos sean más descentralizados y permiten que los desarrolladores trabajen de forma más autónoma, ya que no dependen tanto del servidor centralizado para colaborar con los demás. 
+
+
+[SUBIR ⏫](#item0)
+___
+  
+  
+</details>
 
 
