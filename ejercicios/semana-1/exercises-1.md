@@ -86,12 +86,26 @@ source ~/.bashrc
 |`ls -alh`            |`ll`     |**a** Muestra archivos ocultos <br> **l** usa formato largo para la lista <br> **h** coloca los tamaños de archivos|
 |`sudo apt update && sudo apt dist-upgrade -y`| `actualizar`| Actualiza el Sistema|
 |`git status`         | `gs`    | muestra el estado del directorio de trabajo y del área del entorno de ensayo|
+|`cp -i`             | `cp`     | Para que siempre al copiar un archivo nos pida confirmación|
+| `mv -i`            | `mv`     | Antes de sobreescribir un archivo pedirá confirmación.|
+|`cd ../..`          |`.2`      |Para subir 2 niveles en la estructura de directorios.|
+|`cd ../.. /..`      |`.3`      |Para subir 3 niveles en la estructura de directorios.|
+|`curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py  python3 -` (*)| `fast`| Realizar test de velocidad|
+<br>
+
+(*) este es el comando correcto:
+```
+curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python3 -
+```
+
+
+
+**TIPS**: Para listar todos los *alias* usamos el comando: `alias`
 
   
   [SUBIR ⏫](#item0)
 ___
 </details>
-  
   
   
 
