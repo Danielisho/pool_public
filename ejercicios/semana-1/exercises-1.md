@@ -93,7 +93,7 @@ source ~/.bashrc
 |`curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py  python3 -` (*)| `fast`| Realizar test de velocidad|
 <br>
 
-(*) este es el comando correcto:
+(*) Este es el comando correcto:
 ```
 curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python3 -
 ```
