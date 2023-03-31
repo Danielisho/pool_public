@@ -58,8 +58,8 @@ Este comndo agregará una entrada para **Vite** en el archivo `package.json` baj
 
 ### 📌 Configurando los scripts en package.json
 
+Archivo `packkage.json`:
 ```json
-/*Archivo `packkage.json`*/
 
 {
   "name": "practica",
@@ -80,7 +80,7 @@ Este comndo agregará una entrada para **Vite** en el archivo `package.json` baj
     "sass": "^1.60.0",
     "vite": "^4.2.1"
   }
-}
+
 
 ```
 El objeto `scripts` en el archivo `package.json` se utiliza para definir una serie de comandos que pueden ser ejecutados a través de la línea de comandos utilizando el comando  ` npm run`.
